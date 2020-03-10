@@ -1,77 +1,7 @@
 ## Setup
-The following 
+I used the following commands to build the project:
 
 ```bash
-(base) ➜  Repository npx react-native init test_app
-
-               ######                ######
-             ###     ####        ####     ###
-            ##          ###    ###          ##
-            ##             ####             ##
-            ##             ####             ##
-            ##           ##    ##           ##
-            ##         ###      ###         ##
-             ##  ########################  ##
-          ######    ###            ###    ######
-      ###     ##    ##              ##    ##     ###
-   ###         ## ###      ####      ### ##         ###
-  ##           ####      ########      ####           ##
- ##             ###     ##########     ###             ##
-  ##           ####      ########      ####           ##
-   ###         ## ###      ####      ### ##         ###
-      ###     ##    ##              ##    ##     ###
-          ######    ###            ###    ######
-             ##  ########################  ##
-            ##         ###      ###         ##
-            ##           ##    ##           ##
-            ##             ####             ##
-            ##             ####             ##
-            ##          ###    ###          ##
-             ###     ####        ####     ###
-               ######                ######
-
-
-                  Welcome to React Native!
-                 Learn once, write anywhere
-
-✔ Downloading template
-✔ Copying template
-✔ Processing template
-✔ Installing CocoaPods dependencies (this may take a few minutes)
-
-  Run instructions for iOS:
-    • cd "/Users/federico/Documents/Repository/test_app" && npx react-native run-ios
-    - or -
-    • Open test_app/ios/test_app.xcworkspace in Xcode or run "xed -b ios"
-    • Hit the Run button
-
-  Run instructions for Android:
-    • Have an Android emulator running (quickest way to get started), or a device connected.
-    • cd "/Users/federico/Documents/Repository/test_app" && npx react-native run-android
-
-(base) ➜  Repository cd test_app
-(base) ➜  test_app ls
-App.js          app.json        ios             package.json
-__tests__       babel.config.js metro.config.js yarn.lock
-android         index.js        node_modules
-(base) ➜  test_app yarn init .
-yarn init v1.22.0
-question name (test_app):
-question version (0.0.1):
-question description:
-question entry point (index.js):
-question repository url:
-question author:
-question license (MIT):
-question private (true):
-success Saved package.json
-✨  Done in 6.64s.
-(base) ➜  test_app ls
-App.js          app.json        ios             package.json
-__tests__       babel.config.js metro.config.js yarn.lock
-android         index.js        node_modules
-(base) ➜  test_app ..
-(base) ➜  Repository rm -rf test_app
 (base) ➜  Repository npx react-native init test_app --template react-native-template-typescript
 
                ######                ######
